@@ -211,23 +211,30 @@ http://127.0.0.1:5500
 ```
 ## Funcionalidades Implementadas
 
-1. Cadastrar aluno
-2. Consultar aluno por ID
-3. Listar todos os alunos cadastrados
-4. Atualizar dados cadastrais do aluno
-5. Excluir cadastro de aluno com confirmação de segurança
-6. Visualizar status de gamificação do aluno (Pontos e Foguinhos)
-7. Cadastrar temas de estudo
-8. Gerenciar banco de questões
-9. Criar e atribuir desafios
-10. Consultar ranking de alunos
-11. Excluir temas cadastrados.
-12. Cadastrar questões no banco de questões.
-13. Listar as questões cadastradas.
-14. Atualizar questões existentes.
-15. Excluir questões cadastradas.
-16. Cadastrar desafios de estudo.
-17. Consultar desafios pelo nome.
-18. Atualizar e excluir desafios cadastrados.
-19. Associar questões aos desafios.
-20. Registrar desafios vinculados aos alunos.
+1. O sistema deve pedir a senha e o email do usuário para fazer o cadastro.
+2. O sistema deve pedir qual o nome de usuário para salvar no banco de dados.
+3. O sistema deve permitir ao usuário escolher qual tema estudar.
+4. O sistema deve sugerir de qual matéria o tema escolhido faz parte.
+5. O sistema deve oferecer uma escolha do nível de dificuldade dos desafios para
+o usuário escolher.
+6. O sistema deve oferecer uma escolha da quantidade de desafios
+que vão ser feitos
+7. O sistema deve fazer os desafios em forma de fases como o duolingo e alguns
+jogos.
+8. O sistema deve mostrar a quantidade de pontos do usuário com base no desempenho dele em cada fase.
+9. O sistema deve mostrar um ranking de usuários.
+10. O sistema deve mostrar a posição e os pontos de cada usuário.
+11. O sistema deve deixar o usuário olhar todas as atividades anteriores.
+12. O sistema deve deixar o usuário refazer as atividades feitas anteriormente.
+13. O sistema deve mostrar para o usuário, quando ele acabar uma questao,
+deverá mudar o fundo da alternativa marcada para vermelho, para mostrar que ele errou.
+14. O sistema deve mostrar para o usuário, quando ele acabaruma questao,
+deverá mudar o fundo da alternativa marcada para verde, para mostrar que ele acertou.
+15. O sistema deve fazer um esquema de pontos por vitória igual no kahoot.
+16. O sistema deve permitir que o usuário continue um desafio de onde parou, salvando automaticamente seu progresso.
+17. O sistema deve criar um sistema para incentivar o usuário a usar o aplicativo
+todo dia, como o sistema de foguinho no duolingo.
+18. O sistema deve fazer as questoes em múltipla escolha.
+19. O sistema deve registrar automaticamente todo o progresso em um único
+painel.
+20. O sistema deve mandar elogios e comemorações para usuário, a cada desafio que você conclui.
